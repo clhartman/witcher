@@ -16,7 +16,7 @@
           <div class="carousel-caption d-none d-md-block">
             <h5>Kaer Morhen</h5>
             <p>Nestled high in the beautiful mountain ranges of Kaedwen, this rustic retreat is sure to replenish your
-              energy and remind you of the simpler pleasueres of life.</p>
+              energy and remind you of the simpler pleasures of life.</p>
           </div>
         </div>
         <div class="carousel-item item-size">

@@ -1,5 +1,6 @@
 <template>
   <div class="Reviews">
+    <h1>The Kindest of Words:</h1>
     <div class="col-12 quote-section">
       <div class="card">
         <div class="card-body">
@@ -40,6 +41,22 @@
         </div>
       </div>
     </div>
+    <h2>Leave a Review!</h2>
+    <form>
+      <div class="form-group">
+        <label for="userName"></label>
+        <input type="text" class="form-control" id="userName" aria-describedby="" placeholder="What's your name">
+      </div>
+      <div class="form-group">
+        <label for="location"></label>
+        <input type="text" class="form-control" id="location" placeholder="Where are you from?">
+      </div>
+      <div class="form-group">
+        <label for="comment"></label>
+        <input type="text" class="form-control" id="comment" placeholder="How'd you like it?">
+      </div>
+      <button type="submit" class="btn btn-success">Submit</button>
+    </form>
   </div>
 </template>
 
@@ -55,3 +72,11 @@
     components: {}
   }
 </script>
+
+<style scoped>
+  .quote-section {
+    height: 30vh;
+    overflow-y: scroll;
+  }
+</style>
+}
